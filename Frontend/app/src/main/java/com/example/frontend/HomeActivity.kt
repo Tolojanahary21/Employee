@@ -438,7 +438,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     /**
-     * Met à jour le diagramme camembert avec les données des employés
+     * MAJle diagramme camembert avec les données des employés
      */
     private fun mettreAJourCamembert(employees: List<Employee>) {
         if (employees.isEmpty()) {
